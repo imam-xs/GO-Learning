@@ -29,4 +29,17 @@ func main(){
 	} else {
 		fmt.Println("You do not have the required qualifications.")
 	}
+
+	//switch case
+	var a = 4
+	switch a {
+	case 1:
+		fmt.Println("Value of a is 1")
+	case 2, 3:
+		fmt.Println("Value of a is 2 or 3")
+	case 4:
+		fmt.Println("Value of a is 4")
+	default:
+		fmt.Println("Value of a is unknown")
+	}
 }
