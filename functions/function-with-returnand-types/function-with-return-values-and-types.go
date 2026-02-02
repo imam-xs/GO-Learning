@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+// Function that adds two integers and returns the sum as an integer that is why the return type is specified as int
+func addInts (num1 int, num2 int) int {
+	sum := num1 + num2
+	return sum
+}
+
+func main () {
+	a := 10
+	b := 20
+
+	result := addInts(a, b)
+	fmt.Println("Sum:", result)
+}
