@@ -8,10 +8,22 @@ func addInts (num1 int, num2 int) int {
 	return sum
 }
 
+//example of function with multiple return types
+func getNumbers(number1 int, number2 int) (int, int) {
+	sumation := number1 + number2
+	multification := number1 * number2
+	return sumation, multification
+}
+
 func main () {
 	a := 10
 	b := 20
 
 	result := addInts(a, b)
 	fmt.Println("Sum:", result)
+
+	// Calling function with multiple return types
+	sumation, multification := getNumbers(5, 5)
+	fmt.Println("Sumation:", sumation)
+	fmt.Println("Multification:", multification)
 }
