@@ -15,6 +15,15 @@ func getNumbers(number1 int, number2 int) (int, int) {
 	return sumation, multification
 }
 
+//more examples
+func sayHello(name string) {
+	fmt.Println("Hello,", name)
+}
+
+func welcomeMessage() {
+	fmt.Println("Welcome to Go programming!")
+}
+
 func main () {
 	a := 10
 	b := 20
@@ -26,4 +35,10 @@ func main () {
 	sumation, multification := getNumbers(5, 5)
 	fmt.Println("Sumation:", sumation)
 	fmt.Println("Multification:", multification)
+
+	// Calling sayHello function
+	sayHello("Emon")
+
+	// Calling welcomeMessage function
+	welcomeMessage()
 }
