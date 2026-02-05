@@ -1,7 +1,8 @@
 package main
+
 import "fmt"
 
-num := 10
+var num = 10
 
 func main() {
 	age := 25
@@ -11,3 +12,7 @@ func main() {
 	}
 	fmt.Println("Outer num:", num) // Outputs: Outer num: 10
 }
+
+// output:
+// Inner num: 15
+// Outer num: 10
